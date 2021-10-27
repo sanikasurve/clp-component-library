@@ -1,5 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap');
 
+.root{
+    --primary-color: #A78BFA;
+}
+
 body{
     font-family: 'Zen Old Mincho', serif;;
 }
+
+
+/*container*/
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    margin: auto;
+    max-width: 500px;
+}
+
+/*links*/
+.link-box{
+    margin-bottom: 2rem;
+}
+
+.links{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.primary-link{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-color: #A78BFA;
+    color: white;
+}
+
+.secondary-link{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #A78BFA;
+}
+
+/*list*/
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 1.5rem;
+}
+
+/*nav*/
+.navigation{
+    background-color: #A78BFA;
+    border-radius: 00.75rem;
+    padding: 1rem 2rem;
+}
+
+.nav-brand{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.nav-pill{
+    text-align: right;
+}
+
+.navigation .links{
+    color: white;
+}
+
+.navigation .links-active{
+    font-weight: bold;
+}
+
