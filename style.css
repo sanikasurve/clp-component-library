@@ -78,4 +78,55 @@ body{
 .navigation .links-active{
     font-weight: bold;
 }
+/*header*/
+.header{
+    padding: 1rem;
+}
+
+.header-img{
+    max-width: 70%;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.heading-colored{
+    color: #A78BFA;
+    font-weight: 400;
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.section2{
+    background-color: #E5E7EB;
+}
+
+.section{
+    text-align: center;
+    max-width: 350px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.footer-pill{
+    text-align: center;
+}
+
+.footer-box{
+    text-decoration: none;
+    background-color: #A78BFA;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+
 
